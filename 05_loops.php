@@ -26,6 +26,11 @@ $post = ['first', 'second', 'third', 'fourth'];
 //    echo $post[$x];
 //}
 //same as
-foreach($post as $pos) {
-    echo $pos;
-}
+//foreach($post as $pos) {
+//    echo $pos;
+//}
+
+//to get the index
+//foreach($post as $index => $pos) {
+//    echo $index . ' - ' . $post . '<br>';
+//}
